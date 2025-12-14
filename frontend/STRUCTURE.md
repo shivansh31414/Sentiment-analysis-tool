@@ -4,7 +4,7 @@ This document describes the key folders and files inside the `frontend/` directo
 
 ## Quick start
 - Install: `npm i`
-- Run locally: `npm run dev` (opens at http://localhost:3000)
++ Run locally: `npm run dev` (opens at `http://localhost:3000`)
 
 ## Top-level files
 - `package.json`: project scripts and dependencies.
@@ -48,5 +48,3 @@ import { format } from '@/lib/utils'
 ## Notes
 - Routes use the Next.js App Router (`app/` directory).
 - Keep small, generic controls inside `components/ui/` and page-specific components at top-level `components/`.
-
-If you want, I can also add this doc to `docs/` and link it from the repo README.
